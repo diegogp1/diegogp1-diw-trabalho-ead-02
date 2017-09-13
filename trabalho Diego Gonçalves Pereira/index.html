@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario</title>
+</head>
+<body>
+  <form method='GET' action='teste.php'>
+    <h1>
+         formulario de cadastro 
+    </h1>
+  <div>
+        <p><b> Nome Completo:</b>
+            <input type="text"
+            name="nomecompleto"
+            placeholder="Nome Completo">
+        </p>
+    </div>
+    <div>
+        <p><b>Email:</b>
+            <input type="email"
+            name="email"
+            placeholder="Informe um e-mail válido">
+        </p>
+    </div>
+    <div>
+     <b> Sexo:</b> <input type="radio" name="sex" value="male"> Masculino 
+      <input type="radio" name="sex" value="famele"> Feminino
+    </div> 
+    <div>
+        <p> <b>Data de Nascimento:</b>
+            <input type="date"
+            placeholder="DD/MM/AAAA"
+            name="dataNascimento"><br>
+        </p>
+    </div>
+    <div>
+        <p><b>Grau de Escolaridade:</b>
+           <select name="Tamanho da tabela" size="1">
+               <option value="SuperiorCompleto">Superior Completo</option>>
+               <option value="Medio">Ensino Medio</option>
+               <option value="Pos">Pós-Graduaçao</option>
+               <option value="Mestrado">Mestrado</option>
+               <option value="Doutorado">Doutorado</option>
+        </select>
+        </p>
+    </div>
+    <div>
+        <p><b>Estilos Musicais Preferidos:</b>
+            <select>
+            <option value="estilo"> </option>
+            </select>
+            
+        </p>
+    </div>
+    <div>   
+        <p><b>Nome de Usuário:</b>
+            <input type="text"
+            name="nomeusuario">
+        </p>
+    </div> 
+    <div>
+        <p><b>Senha:</b>
+            <input type="password">
+        </p>
+    </div>
+    <div>
+        <p><b>Cor Preferida:</b>
+            <input type="color">
+        </p>
+    </div>
+    <div>
+        <p><b>Quantidade de Filhos:</b>
+            <input type="text" size="1">
+        </p>
+    </div>
+    <div>
+        <p><b>Quatidade de veículos:</b>
+            0<input type="range" min="0" max="5" step="1" value="0">5
+          
+    </div>
+        <div>
+            <p><b>Comentários sobre o site:</b>
+             <textarea cols="50"   rows="5" name="comentarios"></textarea>
+
+            </p>
+        </div>
+        <div>
+            
+            <input type="checkbox">Desejo receber ofertas via e-mail.
+            
+        </div>
+        <div>
+            <p>
+            <input type="Submit">
+            <input type="Reset" value="Limpar Campos">
+        </p>
+        </div>
+  </form>  
+</body>
+</html>
